@@ -3,7 +3,7 @@
 import axios from 'axios';
 
 export class FilmAPI {
-  static BASE_URL = 'http://api.themoviedb.org/3/';
+  static BASE_URL = 'https://api.themoviedb.org/3/';
   static API_KEY = 'a1c58729dd9d07a228419b3d2b553cbb';
   static GENRES_LIST = 'genre/movie/list';
 
