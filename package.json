@@ -2,7 +2,7 @@
   "name": "project-js",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Tishko1.github.io/filmoteka/",
+  "homepage": "https://tishko1.github.io/filmoteka/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /filmoteka/"
