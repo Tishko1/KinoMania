@@ -21,6 +21,7 @@ body {
 }
 
 .container1 {
+  display: none;
   background-color: transparent;
   display: flex;
   gap: 10px;
@@ -29,15 +30,20 @@ body {
   position: absolute;
   bottom: 40;
   right: 170;
+  
 }
 
+
+
 input[type='checkbox'] {
+  display: none;
   height: 0;
   width: 0;
   visibility: hidden;
 }
 
 label {
+
   cursor: pointer;
   text-indent: -9999px;
   width: 52px;
@@ -46,6 +52,7 @@ label {
   float: right;
   border-radius: 100px;
   position: relative;
+  display: none;
 }
 
 label:after {
@@ -61,7 +68,8 @@ label:after {
 }
 
 input:checked + label {
-  background: var(--color-headings);
+  /* background: var(--color-headings); */
+  background: transparent;
 }
 
 input:checked + label:after {
@@ -82,11 +90,13 @@ html.transition *:after {
 }
 
 .sun-svg{
-  fill: rgb(250, 247, 95);
+  fill: transparent;
+  /* fill: rgb(250, 247, 95); */
 }
 
 .moon-svg {
-  fill: rgb(248, 246, 246);
+  /* fill: rgb(248, 246, 246); */
+  fill: transparent;
 }
 
 .card-library__title{
