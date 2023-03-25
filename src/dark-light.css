@@ -21,7 +21,7 @@ body {
 }
 
 .container1 {
-  display: none;
+ 
   background-color: transparent;
   display: flex;
   gap: 10px;
@@ -30,7 +30,7 @@ body {
   position: absolute;
   bottom: 40;
   right: 170;
-  
+  display: none;
 }
 
 
@@ -48,11 +48,12 @@ label {
   text-indent: -9999px;
   width: 52px;
   height: 27px;
-  background: grey;
+  background: transparent;
+  /* background: grey; */
   float: right;
   border-radius: 100px;
   position: relative;
-  display: none;
+  /* display: none; */
 }
 
 label:after {
